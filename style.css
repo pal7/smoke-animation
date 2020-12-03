@@ -140,18 +140,24 @@ body {
 }
 
 .ghost__button {
-  top: 50px;
+  /* top: 50px; */
   font-family: "Permanent Marker", cursive;
   width: 150px;
-  background-color: red;
+  /* background-color: rgb(180, 54, 54); */
   height: 150px;
-  right: 50px;
-  bottom: 50px;
+  bottom: 110px;
+  left: 45%;
   position: absolute;
   border-radius: 8px;
-  font-size: 24px;
+  font-size: 34px;
   outline: none;
   border-radius: 50%;
+  cursor: pointer;
+  background-color: #ec9f05;
+}
+
+.ghost__button:focus {
+  background-color: #ff4e00;
 }
 
 .ghost__button:hover {
